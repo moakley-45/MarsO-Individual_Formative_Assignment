@@ -229,8 +229,13 @@ p.card-text {
     text-align: center;
 }
 
+.p-3.border.testimonals_card {
+    border-radius: 8px;
+    background-color: #58646c;
+}
+
 .img-thumbnail {
-    width: 350px;
+    width: 348px;
     height: auto;
     margin-bottom: .5rem;
 }
