@@ -172,4 +172,8 @@ li.list-group-item.rounded-circle.footer_social_link {
         margin-bottom: -165px;
     }
 
+    p.info_text_small {
+        margin: 5%;
+    }
+
 }
