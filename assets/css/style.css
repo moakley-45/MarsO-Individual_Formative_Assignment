@@ -124,7 +124,7 @@ p.info_text_large {
 }
 
 p.info_text_small {
-    margin: 3%;
+    margin: 5%;
     font-size: large;
     font-family: "Arimo", sans-serif;
 }
@@ -154,4 +154,14 @@ li.list-group-item.rounded-circle.footer_social_link {
 
 .col-12.col-md-4.footer-section {
     padding: 2rem 0;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+    .header_bar {
+        margin-bottom: -165px;
+    }
+
 }
