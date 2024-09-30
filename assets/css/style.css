@@ -112,6 +112,34 @@ button.btn.btn-link {
     min-height: 100%;
 }
 
+/* Info Section */
+
+/* Info Section - Text */
+p.info_text_large {
+    margin: 3% 12%;
+    font-family: "Arimo", sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+}
+
+p.info_text_small {
+    margin: 3%;
+    font-size: large;
+    font-family: "Arimo", sans-serif;
+}
+
+/* Info Section - Images */
+
+.info_images.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.col-12.col-md-4.mb-4 img {
+    height: 100%;
+}
+
 /* Footer */
 
 li.list-group-item.rounded-circle.footer_social_link {
