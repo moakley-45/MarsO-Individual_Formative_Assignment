@@ -2,9 +2,18 @@
 
 /* general styles */
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #213438 !important;
-    color: #fff !important;
+    color: #fafafa !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     }
     
     main{
@@ -101,4 +110,20 @@ button.btn.btn-link {
 .hero-image.img-container img {
     min-width: 100%;
     min-height: 100%;
+}
+
+/* Footer */
+
+li.list-group-item.rounded-circle.footer_social_link {
+    margin: 0 10px;
+    background-color: #000 !important;
+    border: 1px solid #2180f4 !important;
+}
+
+.col-12.col-md-4.footer-section a {
+    color: #4d7b85;
+}
+
+.col-12.col-md-4.footer-section {
+    padding: 2rem 0;
 }
