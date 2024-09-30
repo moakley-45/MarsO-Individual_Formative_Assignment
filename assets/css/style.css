@@ -196,7 +196,20 @@ li.list-group-item.rounded-circle.footer_social_link {
     color: #fff;
 }
 
+/* Benefits Sections */
 
+.card {
+    margin-bottom: 2rem;
+}
+
+.card-body {
+    background-color: #58646c;
+    text-align: center;
+}
+
+p.card-text {
+    text-align: left;
+}
 
 /* Media Queries */
 
