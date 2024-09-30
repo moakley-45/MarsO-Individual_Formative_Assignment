@@ -232,6 +232,7 @@ p.card-text {
 .p-3.border.testimonals_card {
     border-radius: 8px;
     background-color: #58646c;
+    margin-bottom: 2rem;
 }
 
 .img-thumbnail {
