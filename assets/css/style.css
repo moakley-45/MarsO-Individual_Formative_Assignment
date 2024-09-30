@@ -129,6 +129,13 @@ p.info_text_small {
     font-family: "Arimo", sans-serif;
 }
 
+.info_text i {
+    color: #d1911c;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+
 /* Info Section - Images */
 
 .info_images.row {
@@ -138,6 +145,7 @@ p.info_text_small {
 
 .col-12.col-md-4.mb-4 img {
     height: 100%;
+    border-radius: 8px;
 }
 
 /* Footer */
