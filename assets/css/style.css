@@ -196,6 +196,16 @@ p.info_text_small {
     border-radius: 8px;
 }
 
+.col-md-6.col-12.column-content.quick-questions h4 {
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+.col-md-6.col-12.column-content.quick-questions {
+    background-color: #58646d;
+    border-radius: 8px;
+}
+
 .container.custom-container.mt-5.video\+questions {
     margin-bottom: 3rem;
 }
