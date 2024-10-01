@@ -150,10 +150,27 @@ p.info_text_small {
 
 /* Footer */
 
-li.list-group-item.rounded-circle.ftr_social_link {
+.ftr_social_link {
     margin: 0 10px;
-    background-color: #000 !important;
-    border: 1px solid #2180f4 !important;
+    background-color: #000000 !important;
+    border: 1px solid #4d7b85 !important;
+}
+
+.ftr_social_link:hover {
+    margin: 0 10px;
+    background-color: #d1911c !important;
+    border: 1px solid #ffffff !important;
+    transition: all .5s;
+}
+
+.ftr .list-group-item {
+    padding: 1rem 1.25rem !important;
+}
+
+
+.ftr_social_link i:hover {
+    color: #ffffff;
+    transition: all .5s;
 }
 
 .col-12.col-md-4.ftr-section a {
