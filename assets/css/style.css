@@ -167,6 +167,11 @@ p.info_text_small {
     padding: 1rem 1.25rem !important;
 }
 
+.ftr .list-group-item {
+    background-color: #4d7b85 !important;
+    border: 1px solid white !important;
+    color: #ffffff;
+}
 
 .ftr_social_link i:hover {
     color: #ffffff;
@@ -174,7 +179,7 @@ p.info_text_small {
 }
 
 .col-12.col-md-4.ftr-section a {
-    color: #4d7b85;
+    color: #ffffff;
 }
 
 .col-12.col-md-4.ftr-section {
