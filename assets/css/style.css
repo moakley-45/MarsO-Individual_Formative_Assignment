@@ -148,6 +148,10 @@ p.info_text_small {
     border-radius: 8px;
 }
 
+.info_section.container-fluid {
+    margin-bottom: 3rem;
+}
+
 /* Footer */
 
 .ftr_social_link {
@@ -184,6 +188,20 @@ p.info_text_small {
 
 .col-12.col-md-4.ftr-section {
     padding: 2rem 0;
+}
+
+/* Video + Questions Section */
+
+.embed-responsive.embed-responsive-16by9 {
+    border-radius: 8px;
+}
+
+.container.custom-container.mt-5.video\+questions {
+    margin-bottom: 3rem;
+}
+
+.col-md-6.col-12.column-content.quick-questions {
+    padding: 5px 10px;
 }
 
 /* Categories Section */
