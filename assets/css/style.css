@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #213438 !important;
     color: #fafafa !important;
@@ -45,6 +49,8 @@ body {
     .my-4 {
         margin-bottom: 0 !important;
         margin-top: 0 !important;
+        justify-content: space-between !important;
+        align-items: center !important;
     }
     
     .img-container img {
@@ -74,13 +80,14 @@ body {
     background-color: rgba(0, 0, 0, 0) !important;
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem !important;
+    padding: 0 2rem !important;
     z-index: 40;
     margin-bottom: -110px;
     position: relative;
 }
 
 .logo.uppercase .logo_upper {
+    margin-top: 1rem;
     margin-bottom: 0;
     font-family: "Futura", sans-serif;
     font-weight: bold;
@@ -96,13 +103,21 @@ body {
     line-height: 31.8px;
 }
 
-button.btn.btn-danger {
-    border-radius: 8px;
-}
-
 button.btn.btn-link {
     margin-left: 18px;
-    color: #fff;
+}
+
+button.btn.btn-link a {
+   color: #ffffff;
+}
+
+span.navbar-toggler-icon i {
+    color: #ffffff;
+    font-size: 31.8px;
+}
+
+.fa-heart:before {
+    color: red;
 }
 
 /* Hero Image */
@@ -110,6 +125,10 @@ button.btn.btn-link {
 .hero-image.img-container img {
     min-width: 100%;
     min-height: 100%;
+}
+
+.hero-image.img-container {
+    margin-bottom: 3rem;
 }
 
 /* Info Section */
@@ -124,7 +143,7 @@ p.info_text_large {
 }
 
 p.info_text_small {
-    margin: 5%;
+    margin: 4%;
     font-size: large;
     font-family: "Arimo", sans-serif;
 }
@@ -222,9 +241,11 @@ p.info_text_small {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     padding: 0 12%;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.catergories_text.col-12.col-md-8.mb-4 {
+.catergories_text.col-md-3 {
     background-color: #58646c;
     color: #fff;
     border-radius: 8px;
@@ -306,5 +327,12 @@ p.card-text {
     p.info_text_small {
         margin: 5%;
     }
+
+    .col-md-6.col-12.column-content.quick-questions {
+        padding: 5px 15px;
+        max-width: 382px !important;
+        margin: auto;
+    }
+
 
 }
