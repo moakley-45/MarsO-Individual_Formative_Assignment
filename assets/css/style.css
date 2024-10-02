@@ -61,6 +61,10 @@ body {
     .uppercase{
         text-transform: uppercase;
     }
+
+    .h3, h3 {
+        font-family: "Futura", sans-serif !important;
+    }
     
     .hidden{
         display: none;
@@ -107,12 +111,14 @@ body {
     line-height: 31.8px;
 }
 
-button.btn.btn-link {
-    margin-left: 18px;
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin: 0 1rem;
 }
 
-button.btn.btn-link a {
-   color: #ffffff;
+a.nav-link.btn.btn-link {
+    color: #ffffff;
 }
 
 span.navbar-toggler-icon i {
@@ -231,7 +237,7 @@ li.list-group-item.rounded-circle.ftr_social_link:hover {
     margin-bottom: 3rem;
     min-height: 60vh;
     align-content: center;
-    padding: 5p 10px;
+    padding: 5px 10px;
 }
 
 /* Categories Section */
