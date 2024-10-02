@@ -14,7 +14,7 @@ html {
 
 body {
     background-color: #213438 !important;
-    color: #fafafa !important;
+    color: #ffffff !important;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -94,6 +94,10 @@ body {
     letter-spacing: 1px;
     font-size: 28.3px;
     line-height: 28.3px;
+}
+
+.logo.uppercase a{
+    color: #ffffff;
 }
 
 .logo.uppercase .logo_lower {
