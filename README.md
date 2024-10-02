@@ -1,131 +1,185 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Diversity&Inclusion
 
-Welcome Mars Oakley,
+This project is aiming to create a single page site, built through the trinity of HTML, CSS and Javascript, to create a responsive, professional and stable site that can be improved upon in future iterations.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The site itself - “Diversity&Inclusion”- is to serve as a reference-point for professionals; offering tips, guidance, information and further references for users on how to promote diversity and inclusion within their work-places and teams.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+This user-base - the professional/ business sector - and the linked user-stories have greatly influenced the planning of the structure and aesthetics of the site.   
 
-## Gitpod Reminders
+The tentative plan for the site’s construction is to go through multiple rounds of development, starting with Round 1 and the creation of the MVP for the site. After this has been completed, the site will be deployed to Github Pages, under the ‘Release early, release often’ principle. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This will allow for easier testing, and I can then move on to adding new features into the site with each new round of development, and creating an easy-to-replicate structure for future updates and iterations.
 
-`python3 -m http.server`
+![Screenshot 2024-10-02 at 12 22 12](https://github.com/user-attachments/assets/1535ecbb-b9eb-4db4-9c2a-71dea82dc944)
 
-A blue button should appear to click: _Make Public_,
+## Features 
 
-Another blue button should appear to click: _Open Browser_.
+### Existing Features
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+- __Navigation Bar__
 
-A blue button should appear to click: _Make Public_,
+  - Featured in the Header, this allows the user to easily scroll down to the Section they are navigating to, with smooth and precise auto-scroll. This folds into a smaller drop-down menu for mobile users, to preserve screen real estate.
+  - This section will allow the user to easily navigate the page across all devices.
 
-Another blue button should appear to click: _Open Browser_.
+![navigation_desktop](https://github.com/user-attachments/assets/aa676f80-8eab-4541-8874-49889f9d3122) 
+![navigation_mobile](https://github.com/user-attachments/assets/6bd7820c-77dd-43d8-b42d-1193b4830c16)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __The Hero Image section__
 
-To log into the Heroku toolbelt CLI:
+  - The Hero image section includes a photograph to easily illustrate the content for the user, with a large and clear image. 
+  - This section introduces the user to Diversity&Inlcusion with an eye-catching themed visual to grab their attention.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![hero-image](https://github.com/user-attachments/assets/699394ff-bb4a-4208-92dd-b618d43d3939)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- __Further information Section__
 
-### Connecting your Mongo database
+  - The section allows the user to easily parse and read information, to summeraise and contextualise the information provided below, with icons to help retain the information and offer visual links. 
+  - This user will see the value of in the accesible information and hopefully be curious to read on. 
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+![further_information](https://github.com/user-attachments/assets/557ce912-30cd-4574-8de5-dab41950c7c3)
 
-------
+- __Quick questions section__
 
-## Release History
+  - This section will allow the user to watch an informative YouTube video embedded onto the page, and then answer self-reflecting questions, to demonstrate their personal stake in the subject matter.
+  - The user will see the value in this interactive element and hopefully see the value in the page's content, as the questions relate directly to them as a user and a professional.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![quick_questions](https://github.com/user-attachments/assets/25277dcb-a53c-4726-ab35-ec60349a8fb9)
 
-**June 18, 2024,** Add Mongo back into template
+- __Categories section__
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+  - This section offers more information in a visual and disgestible format, flanked with illustrative images.
+  - This user will see the value in this accessible information and visual layout, as this can aid in information processing. 
 
-**May 28 2024:** Fix Mongo and Links installs
+![Screenshot 2024-10-02 at 13 30 34](https://github.com/user-attachments/assets/11837cd7-83a1-4f78-8ddc-b75de9b4c89e)
 
-**April 26 2024:** Update node version to 16
+- __Benefits section__
 
-**September 20 2023:** Update Python version to 3.9.17.
+  - This section will allow the user to parse and understand information easily, as text is broken into topical chunks and presented visually. There are link-buttons here, which currently link back to the page top but could be used for dedicated pages in future development cycles. 
+  - This user will see the value in this accessible information and visual layout, as this can aid in information processing. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Benefits](https://github.com/user-attachments/assets/89d241a1-d8f9-41f9-9798-dc700466187f)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Testimonials section__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - The gallery will provide the user with dense information from expert sources, broken up visually with recognisable logo thumbnails to help with the trustworthiness and immediate identification of the sources.  
+  - This section is valuable to the user as they will be able to easily identify the source of the information, and parse it quickly.  
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![testimonials](https://github.com/user-attachments/assets/68fb082c-e7b8-456b-a3bf-cc2374756630)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __Footer section__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - This section will allow the user to access contact information and social media links, and use a Back to Top button to easily navigate back to the Header, for massively increased navigation ease. 
+  - This section offers a valuable navigation and Quality of Life option to the user, who will appreciate the time saved scrolling. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![footer](https://github.com/user-attachments/assets/9a107620-e1d9-465f-beb6-9e890eb10a61)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Features Left to Implement
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- Additional Page - reference page, to allow users to easily find and navigate to the site's source directly
+- Additional Page - Forum page, to allow users to leave comments in threads, to interact with each other and share ideas.
+- Additional Page - Wiki page, to allow users to browse information in a database and easily find dedicated pages for each topic area.
+- Additional feature - Floating Back to Top button, to improve navigation ease.
+- Additional user log-in system - Allow users to create accounts and navigate the site with a user profile they can customise and update.
+- Additional Section/Feature - video testimonials - allow users to submit video files, to increase user interaction and provide more interactive elements on the site. 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## UX/UI 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Site Goals
+ The goal of the site is offer information to business professionals. As such, users will want to be able to easily navigate the website to find information relating to profressional practise. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Design choices
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+I have tailored the images selected to stick to this professional vibe, and I have picked a muted but still c
+olourful colorscheme, with orange (#d1911c) as a highlight and a greenish-blue as a base color. I would have chosen a more true blue as a basis as this is very common in the business world with its calming effect - [facebook, X/Twitter, LinkedIn](https://www.wired.com/2016/09/popular-color-internet/) and others all use blue as their main color, for example - but I am blue-tone color-blind, so this would have made development a literal head-ache for me, hence the shift to green as my main background color (#213438). I have used white (#ffffff) as my text color for clarity and a soft grey (#58646c) for feature-backgrounds to offer visual contrast 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![colors](https://github.com/user-attachments/assets/6863b48f-fcec-4fcc-9db3-3c36c0624658)
 
-------
+### User stories
 
-## FAQ about the uptime script
+As the site developer, I want the site to be resposive across all three main view-port sizes, to ensure all users can use it as expected.
+As a business professional, I want a site that is tailored to my demographic and feels 'business' when I navigate it.
+As a business professonal, I want a site that illustrate the real value of the content, with examples from trusted sources.
+As a visitor, I want a dynamic site with imagery and color, so I am not bored while browsing.
+As a technical professional, I want content with facts and figures, so the information seems trustworthy.
+As the site developer, I want the site to be easy to maintain and update, so my future work is as easy as possible.
 
-**Why have you added this script?**
+### Wireframes
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- Wireframe - Desktop:
 
-**How will this affect me?**
+![Wireframe-Desktop](https://github.com/user-attachments/assets/7f174d9a-2e1e-4480-bb32-f3f7a43eb80c)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- Wireframe - Mobile:
+  
+![Wireframe - Mobile](https://github.com/user-attachments/assets/d21893fa-fed2-4fe7-b671-c1d00a0bff61) 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Testing 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+I'm pleased to report that all sections have been teste for responsiveness on Mobile, Tablet and Desktop sizes.
 
-**So….?**
+I found a bug with how my already-minimal navigation bar was bunching up and looking ugly on Mobile sizes - this was the catalyst for deciding to remove this entirely and implement the drop-down navigation bar model on Mobile instead, as this cleanly resolved the issue and made for a much cleaner look. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The tablet View is definitely not as aesthetically pleasing as I would prefer, and with more time I would definitely use more Media Queries and tailor and fine-tune how the Benefits Section looks on Tablet view - some of the boxes here fail to line up neatly with the buttons covering the final line of text, but all the text is still easy-to-read and legible on both Mobile and Desktop view, so I am counting this as a 'win' for now: 
 
-**Can I opt out?**
+![tablets-size](https://github.com/user-attachments/assets/8919f363-8c92-4312-a694-dd8d03d631a1)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Validator Testing 
 
-**Anything more?**
+- HTML
+  - No errors were returned when passing through the official W3C validator
+![html_validator](https://github.com/user-attachments/assets/4d8541b3-d3c6-4e56-941d-825cae85443f)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+![css_validator](https://github.com/user-attachments/assets/88d83c6d-34c4-49f8-aee3-e7c1d063fd2b) 
 
----
+### Unfixed Bugs
 
-Happy coding!
+- The issue with text overlap on Tablet view on the Benefits section - this would need a re-work of the section, which was not currently possible to complete in the time provided but could be done in a future round of development. As the section is usable with no issue on Mobile and Desktop, this has been left as a 'Nice to fix' level issue, rather than a 'Must fix'. 
+
+## Deployment
+
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Main Branch
+  - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - [https://moakley-45.github.io/MarsO-Individual_Formative_Assignment/ ](https://moakley-45.github.io/MarsO-Individual_Formative_Assignment/)
+
+
+## Credits 
+
+### Content 
+
+- The text for the Home page was taken from the following sources:
+
+[Breathe - 8 benefits of encouraging diversity in the workplace](https://www.breathehr.com/en-gb/blog/topic/business-leadership/8-benefits-of-encouraging-diversity-in-the-workplace)
+
+[UNC Pembroke - Why Diversity and Inclusion Are Good for Business](https://online.uncp.edu/degrees/business/mba/general/diversity-and-inclusion-good-for-business/)
+
+[Havard Business Report - Teams Solve Problems Faster When They’re More Cognitively Diverse by Alison Reynolds and David Lewis](https://hbr.org/2017/03/teams-solve-problems-faster-when-theyre-more-cognitively-diverse)
+
+[McKinsey and Company - Diversity wins: How inclusion matters](https://www.mckinsey.com/featured-insights/diversity-and-inclusion/diversity-wins-how-inclusion-matters)
+
+[Great Places to Work - Why Is Diversity and Inclusion in the Workplace Important?](https://www.greatplacetowork.com/resources/blog/why-is-diversity-inclusion-in-the-workplace-important)
+
+- Any contact details or social media pages are those belonging to Code Institute:
+
+[Code Institue - Contact Us](https://codeinstitute.net/contact/)
+
+[Code Institute (@codeinstitute) / X](https://twitter.com/codeinstitute?lang=en)
+
+[Code Institute (@codeinstitute) • Instagram photos and videos](https://www.instagram.com/codeinstitute/)
+
+[Code Institute Employees, Location, Alumni | LinkedIn](https://uk.linkedin.com/school/code-institute/)
+
+
+### Media
+
+- All images used on the site were taken from [Unsplash.com](https://unsplash.com/) and are under copyright of their original uploaders.
+
+- The video used is taken from [DuPont's YouTube channel](https://www.youtube.com/@dupont), and is available for embedded use with crediting. 
+
+- The icons used on the site were taken from [Font Awesome](https://fontawesome.com/)
