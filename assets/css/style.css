@@ -121,6 +121,12 @@ a.nav-link.btn.btn-link {
     color: #ffffff;
 }
 
+a.nav-link.btn.btn-link:hover {
+    background-color: #ffffff;
+    color: #d1911c;
+    transition: all .5s;
+}
+
 span.navbar-toggler-icon i {
     color: #ffffff;
     font-size: 31.8px;
